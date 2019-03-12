@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Garbage Blocker",
+  "description": "Blocks garbage tracking",
+  "version": "0.1.0",
+  "icons": {
+    "64": "oscar-400x400.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
