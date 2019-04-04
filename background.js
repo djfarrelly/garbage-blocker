@@ -1,9 +1,8 @@
 const urls = [
   // Ads
   "*://*.googletagmanager.com/*",
-  "*://*.googleadservices.com/*",
   "*://*.ads.linkedin.com/*",
-  "*://*.licdn.com/*",
+  "*://*.doubleclick.net/*,
   // Tracking
   "*://*.driftt.com/*",
   "*://*.api.drift.com/*",
@@ -15,7 +14,8 @@ const urls = [
   "*://*.bizible.com/*",
   "*://*.marketo.net/*",
   "*://*.getdrip.com/*",
-  "*://*.madkudu.com/*"
+  "*://*.madkudu.com/*",
+  "*://rs.fullstory.com/*"
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(details => {
